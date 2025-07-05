@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VivaBem 🏡💙
 
-## Getting Started
+**Sua Casa Segura. Sua Vida com Autonomia.**
 
-First, run the development server:
+VivaBem é uma solução inteligente, acolhedora e preventiva voltada para o cuidado de idosos e pessoas com necessidades especiais. Unindo **tecnologia assistiva**, **inteligência artificial** e **design inclusivo**, o app promove bem-estar, segurança e companhia no dia a dia de quem mais precisa.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 Propósito
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Com o envelhecimento da população brasileira, o VivaBem foi criado para transformar o cuidado remoto em uma experiência humanizada. Vai além de soluções emergenciais ao oferecer um cuidado contínuo, preventivo e completo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📱 Funcionalidades Principais
 
-To learn more about Next.js, take a look at the following resources:
+- **Interação social** com assistente virtual simpático e conversador.
+- **Lembretes personalizados** para medicamentos, alimentação e hidratação.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Público-Alvo
 
-## Deploy on Vercel
+- Idosos que vivem sozinhos ou em situação de risco.
+- Pessoas com necessidades especiais que exigem atenção contínua.
+- Familiares que buscam cuidado remoto e interativo.
+- Planos de saúde e instituições de assistência social.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌈 Identidade Visual
+
+### 🎨 Paleta de Cores
+
+| Cor                     | Hex       | Significado                  |
+| ----------------------- | --------- | ---------------------------- |
+| Azul Serenity           | `#4A90E2` | Confiança, calma, tecnologia |
+| Verde Menta             | `#7ED6A6` | Saúde, frescor, vitalidade   |
+| Amarelo Manteiga        | `#FFE28A` | Acolhimento, energia leve    |
+| Branco                  | `#FFFFFF` | Simplicidade, leveza         |
+| Cinza Claro             | `#F2F2F2` | Fundo neutro                 |
+| Vermelho Claro (alerta) | `#FF6B6B` | Emergência, atenção          |
+
+### 🖋️ Fontes
+
+- **Primária (títulos):** Nunito
+- **Secundária (textos):** Inter / Open Sans
+
+---
+
+## 🤖 Assistente Virtual – Viva
+
+### Persona
+
+> O Viva é um assistente virtual amigável, calmo e gentil. Ele acompanha, lembra, interage e cuida com atenção e carinho.
+
+### Funções:
+
+- Lembrar atividades importantes
+- Manter conversas leves e afetuosas
+- Estimular o bem-estar físico e emocional
+- Identificar padrões de comportamento
+- Promover a autonomia com segurança
