@@ -120,7 +120,7 @@ o frontend estará disponível em: [http://localhost:3000](http://localhost:3000
 
 O frontend se comunica com um backend que roda em FastAPI. Para rodar o backend, veja o repositório correspondente:
 
-👉 Repositório do backend: [Link]()
+👉 Repositório do backend: [Link](https://github.com/GabrielAlves263/bem-backend)
 
 ---
 
