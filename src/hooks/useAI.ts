@@ -1,5 +1,5 @@
 export const useAI = () => {
-  const baseUrl = "http://localhost:8000"; // ou IP do servidor FastAPI
+  const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 
   const conversar = async (pergunta: string): Promise<string> => {
     const res = await fetch(`${baseUrl}/perguntar`, {
