@@ -1,15 +1,16 @@
 "use client";
+import { usePathname } from "next/navigation";
 import { FaRegUser } from "react-icons/fa";
 import { GrHomeRounded } from "react-icons/gr";
 import { LuSettings } from "react-icons/lu";
 import ButtonNav from "./ButtonNav";
 
 export default function BottomNav() {
-  const currentPath = "/";
+  const currentPath = usePathname();
 
   return (
     <div className="fixed bottom-0 w-full max-w-lg flex justify-around p-4">
-      <ButtonNav Icon={FaRegUser} currentPath={currentPath} path="/usuario" />
+      <ButtonNav Icon={FaRegUser} currentPath={currentPath} path="/perfil" />
       <ButtonNav Icon={GrHomeRounded} currentPath={currentPath} path="/" />
       <ButtonNav
         Icon={LuSettings}
