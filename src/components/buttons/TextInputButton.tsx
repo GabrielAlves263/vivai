@@ -30,7 +30,7 @@ export default function TextInputButton() {
     }
   };
 
-  const handleKeyDown = (event: any) => {
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
       event.preventDefault();
       handleSubmit();
@@ -51,12 +51,18 @@ export default function TextInputButton() {
         >
           OU <b className="font-black">DIGITE</b> AQUI
         </span>
-        <button
-          onClick={handleSubmit}
-          className="absolute inset-y-0 right-0 flex items-center pr-4"
-        >
-          <LuSendHorizontal className="size-8 text-red cursor-pointer" />
-        </button>
+        {loading ? (
+          <span className="absolute inset-y-0 right-0 flex items-center mr-2 animate-pulse text-red text-3xl size-8">
+            ...
+          </span>
+        ) : (
+          <button
+            onClick={handleSubmit}
+            className="absolute inset-y-0 right-0 flex items-center pr-4"
+          >
+            <LuSendHorizontal className="size-8 text-red cursor-pointer" />
+          </button>
+        )}
       </div>
       <input
         type="text"
