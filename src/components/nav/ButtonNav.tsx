@@ -7,6 +7,7 @@ interface ButtonNavProps {
   path: string;
   currentPath: string;
   action?: () => void;
+  text?: string;
 }
 
 export default function ButtonNav({
@@ -15,15 +16,17 @@ export default function ButtonNav({
   path,
   currentPath,
   action,
+  text,
 }: ButtonNavProps) {
   return (
     <Link
       href={path}
       onClick={action}
       data-active={currentPath === path}
-      className="data-[active=true]:text-blue-500 data-[active=false]:opacity-50 hover:text-blue-500"
+      className="flex flex-col items-center justify-center bg-paper border rounded-2xl size-24 data-[active=true]:text-paper data-[active=true]:bg-red data-[active=false]:opacity-50 hover:text-red"
     >
       <Icon className="size-12" />
+      <p>{text}</p>
     </Link>
   );
 }

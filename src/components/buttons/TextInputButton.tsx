@@ -10,7 +10,7 @@ export default function TextInputButton() {
   const isActive = isFocused || value !== "";
 
   return (
-    <div className="relative w-full max-w-sm mt-6 bg-primary-light rounded-2xl">
+    <div className="relative w-full max-w-sm mt-4 bg-primary-light rounded-2xl">
       <div>
         <span
           className={`

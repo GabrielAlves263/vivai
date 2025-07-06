@@ -9,13 +9,24 @@ export default function BottomNav() {
   const currentPath = usePathname();
 
   return (
-    <div className="fixed bottom-0 w-full max-w-lg flex justify-around p-4">
-      <ButtonNav Icon={FaRegUser} currentPath={currentPath} path="/perfil" />
-      <ButtonNav Icon={GrHomeRounded} currentPath={currentPath} path="/" />
+    <div className="fixed bottom-0 w-full max-w-md flex justify-around p-4">
+      <ButtonNav
+        Icon={FaRegUser}
+        currentPath={currentPath}
+        path="/perfil"
+        text="Meu perfil"
+      />
+      <ButtonNav
+        Icon={GrHomeRounded}
+        currentPath={currentPath}
+        path="/"
+        text="Início"
+      />
       <ButtonNav
         Icon={LuSettings}
         currentPath={currentPath}
         path="/configuracoes"
+        text="Ferramentas"
       />
 
       {/* <img src="userIcon.svg" className="h-14 opacity-50" />
