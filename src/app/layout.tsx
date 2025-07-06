@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-Br">
-      <body className={nunito.className}>{children}</body>
+      <body className={nunito.className + " flex justify-center"}>
+        {children}
+      </body>
     </html>
   );
 }
