@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export const useSpeechRecognition = () => {
   const reconhecer = (): Promise<string> => {
     return new Promise((resolve, reject) => {
