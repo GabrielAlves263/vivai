@@ -3,7 +3,6 @@ import { IconType } from "react-icons";
 
 interface ButtonNavProps {
   Icon: IconType;
-  isSelected?: boolean;
   path: string;
   currentPath: string;
   action?: () => void;
@@ -12,7 +11,6 @@ interface ButtonNavProps {
 
 export default function ButtonNav({
   Icon,
-  isSelected = false,
   path,
   currentPath,
   action,
