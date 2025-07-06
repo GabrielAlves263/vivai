@@ -25,7 +25,7 @@ export default function BottomNav() {
       <ButtonNav
         Icon={LuSettings}
         currentPath={currentPath}
-        path="/configuracoes"
+        path="/ferramentas"
         text="Ferramentas"
       />
 
